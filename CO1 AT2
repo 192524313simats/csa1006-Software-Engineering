@@ -1,0 +1,85 @@
+1. Well-Defined Requirements
+Requirement ID	Requirement	Stakeholder
+R1	The system shall allow students to view their attendance percentage through a mobile application in real time.	Students
+R2	The system shall support biometric attendance for teachers to record attendance accurately and reduce proxy attendance.	Teachers
+R3	The system shall generate monthly attendance reports for management and faculty.	Management
+R4	The system shall be developed using a cost-effective solution and be delivered within the planned project schedule.	Management
+
+2. MoSCoW Prioritization Table
+The MoSCoW method categorizes requirements based on their importance.
+
+Priority	Requirement	Reason
+Must Have	Biometric attendance integration (R2)	Core functionality for accurate attendance tracking.
+Must Have	Attendance reports (R3)	Essential for monitoring attendance and compliance.
+Should Have	Student mobile attendance checking (R1)	Improves accessibility but the system can operate without it initially.
+Could Have	Push notifications and attendance alerts	Enhances user experience but is not essential for the first release.
+Won't Have (Current Release)	AI-based attendance prediction and analytics	Valuable in the future but outside the current budget and timeline.
+
+3. Kano Model Classification
+The Kano Model classifies features according to how they affect user satisfaction.
+
+Requirement	Kano Category	Explanation
+Biometric attendance integration	Basic (Must-Be)	Users expect accurate attendance recording; its absence leads to dissatisfaction.
+Attendance reports	Performance	Better reporting improves efficiency and user satisfaction.
+Student mobile attendance checking	Performance	The easier it is for students to access attendance, the higher their satisfaction.
+Push notifications and attendance alerts	Excitement	An unexpected feature that delights users but is not essential.
+
+4. Stakeholder Conflict and Resolution Plan
+Conflict Description
+Teachers' Requirement:
+
+Require biometric attendance to prevent proxy attendance and improve accuracy.
+Management's Requirement:
+
+Wants a low-cost system with a short development timeline.
+Conflict:
+Biometric integration increases hardware costs, software integration effort, and implementation time, while management wants to minimize expenses and complete the project quickly.
+
+Resolution Plan
+Step 1: Conduct Requirement Analysis
+Discuss the business value, cost, and implementation effort of biometric integration with all stakeholders.
+
+Step 2: Prioritize Core Requirements
+Implement essential attendance management features first, including attendance recording and reporting.
+
+Step 3: Adopt a Phased Development Approach
+Phase 1: Develop the web/mobile attendance system and reporting features.
+Phase 2: Integrate biometric devices after the core system is successfully deployed and additional budget is available.
+Step 4: Evaluate Cost-Effective Alternatives
+Use existing biometric devices if available or integrate with affordable fingerprint or facial recognition systems to reduce implementation costs.
+
+Step 5: Maintain Continuous Stakeholder Communication
+Conduct regular meetings to review project progress, explain trade-offs, and ensure that expectations remain aligned.
+
+Requirement Prioritization Workflow
+Stakeholder Requirements
+          │
+          ▼
+Requirements Elicitation
+          │
+          ▼
+Requirement Analysis
+          │
+          ▼
+MoSCoW Prioritization
+          │
+          ▼
+Kano Model Classification
+          │
+          ▼
+Conflict Identification
+          │
+          ▼
+Negotiation & Resolution
+          │
+          ▼
+Final Approved Requirements
+          │
+          ▼
+System Development
+
+Conclusion
+The College Attendance Management System must balance the needs of students, teachers, and management. By identifying clear requirements, prioritizing them with the MoSCoW technique, classifying features using the Kano Model, and resolving stakeholder conflicts through negotiation and phased implementation, the project can deliver a practical, cost-effective, and user-focused attendance system while meeting both technical and business objectives.
+
+
+
