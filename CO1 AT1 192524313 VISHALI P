@@ -1,0 +1,176 @@
+Problem 1: Applying Scrum in a Telemedicine App Project
+Scenario
+A company developing a telemedicine mobile application is facing frequent changes in requirements. The Product Owner often modifies the Product Backlog during Sprint Planning, reducing team productivity and creating confusion among stakeholders.
+
+1. Scrum Roles and Responsibilities
+Scrum is an Agile framework that promotes collaboration, transparency, and iterative software development. It consists of three primary roles.
+
+a) Product Owner (PO)
+Responsibilities:
+
+Defines the product vision and business goals.
+Creates and prioritizes the Product Backlog.
+Ensures backlog items are clear and well-defined before Sprint Planning.
+Communicates stakeholder requirements to the Scrum Team.
+Accepts or rejects completed work based on acceptance criteria.
+Role in this scenario:
+The Product Owner is frequently changing backlog items during Sprint Planning, leading to instability and reduced team focus.
+
+b) Scrum Master
+Responsibilities:
+
+Ensures Scrum principles and practices are followed.
+Facilitates Scrum events such as Sprint Planning, Daily Scrum, Sprint Review, and Sprint Retrospective.
+Removes obstacles that affect team productivity.
+Coaches the Product Owner and Development Team on Agile best practices.
+Role in this scenario:
+The Scrum Master should guide the Product Owner to finalize backlog priorities before Sprint Planning and discourage unnecessary changes during the sprint.
+
+c) Development Team
+Responsibilities:
+
+Designs, develops, tests, and delivers the product increment.
+Estimates effort for backlog items.
+Maintains product quality.
+Self-organizes to complete Sprint Goals.
+Role in this scenario:
+Frequent requirement changes interrupt development, increase rework, and reduce productivity.
+
+2. Root Cause Analysis
+Problem:
+Frequent backlog modifications during Sprint Planning.
+
+Root Cause Analysis Table
+Problem	Root Cause	Impact
+Frequent requirement changes	Product Owner accepts changing stakeholder requests without proper validation	Sprint goals become unstable
+Poor backlog refinement	User stories are not fully prepared before Sprint Planning	Team spends excessive time discussing requirements
+Lack of stakeholder alignment	Stakeholders have different priorities	Conflicting feature requests
+No requirement freeze for sprint	New features are introduced during Sprint Planning	Increased rework and delayed delivery
+Poor communication	Team members do not clearly understand changing priorities	Reduced productivity and confusion
+
+Fishbone (Cause-and-Effect) Diagram
+                    Requirement Instability
+                              |
+---------------------------------------------------------
+|            |             |            |               |
+People     Process      Planning    Communication   Stakeholders
+|            |             |            |               |
+PO changes   No backlog    Poor sprint  Unclear       Frequent
+priorities   refinement    preparation  requirements  change requests
+
+3. Improved Backlog Prioritization Plan
+A structured backlog management process can reduce requirement instability.
+
+Step 1: Regular Backlog Refinement
+Conduct backlog refinement once every week.
+Review upcoming user stories before Sprint Planning.
+Clarify acceptance criteria.
+Estimate story points in advance.
+Step 2: Prioritize Using MoSCoW Technique
+Priority	Description	Example
+Must Have	Essential features	Video consultation
+Should Have	Important but not critical	Appointment reminders
+Could Have	Nice-to-have features	Dark mode
+Won't Have (Current Sprint)	Deferred features	AI symptom prediction
+
+This helps ensure critical healthcare functionality is developed first.
+
+Step 3: Use Business Value vs. Effort Matrix
+High-value, low-effort features should be implemented first.
+
+Business Value	Development Effort	Priority
+High	Low	Highest
+High	High	High
+Low	Low	Medium
+Low	High	Lowest
+
+Step 4: Define Sprint Goal Clearly
+Example:
+
+Sprint Goal: Implement secure patient login, doctor search, and appointment booking.
+
+Only backlog items supporting this goal should be included in the sprint.
+
+Step 5: Freeze Sprint Backlog
+Once Sprint Planning is completed:
+
+Avoid adding new requirements.
+Emergency requests should be handled only if they are business-critical.
+All other changes should be moved to the next sprint.
+Step 6: Maintain Product Backlog Transparency
+The Product Owner should:
+
+Share updated priorities with stakeholders.
+Explain why features are added or postponed.
+Keep backlog items visible to the entire Scrum Team.
+4. Retrospective Improvement Suggestions
+At the end of each sprint, the Scrum Team should conduct a Sprint Retrospective to identify improvements.
+
+Suggested Action Items
+1. Improve Backlog Grooming
+Hold weekly backlog refinement meetings.
+Ensure user stories are complete before Sprint Planning.
+2. Define Clear Acceptance Criteria
+Every user story should include:
+
+Functional requirements
+Validation rules
+Expected outputs
+Definition of Done
+3. Strengthen Stakeholder Communication
+Schedule regular stakeholder review meetings.
+Collect feedback before Sprint Planning rather than during the sprint.
+4. Limit Mid-Sprint Changes
+Follow Scrum guidelines by avoiding unnecessary backlog modifications during a sprint.
+Introduce changes only after evaluating their impact.
+5. Improve Estimation Accuracy
+Use Planning Poker or Story Points for estimating work.
+Compare estimated effort with actual effort to improve future planning.
+6. Track Agile Metrics
+Monitor:
+
+Sprint Velocity
+Burndown Chart
+Defect Rate
+Sprint Goal Success Rate
+These metrics help identify planning and execution issues.
+
+7. Continuous Team Learning
+Conduct Scrum training sessions.
+Share lessons learned after every sprint.
+Encourage collaboration between the Product Owner, Scrum Master, and Development Team.
+Expected Workflow (Diagram)
+Stakeholder Requirements
+          │
+          ▼
+ Product Backlog Creation
+          │
+          ▼
+ Weekly Backlog Refinement
+          │
+          ▼
+ Prioritization (MoSCoW + Business Value)
+          │
+          ▼
+ Sprint Planning
+          │
+          ▼
+ Sprint Backlog (Frozen)
+          │
+          ▼
+ Sprint Execution
+          │
+          ▼
+ Sprint Review
+          │
+          ▼
+ Sprint Retrospective
+          │
+          ▼
+ Continuous Improvement
+
+Conclusion
+The primary cause of requirement instability is frequent backlog changes by the Product Owner without sufficient refinement or stakeholder alignment. By clearly defining Scrum roles, conducting regular backlog refinement, using structured prioritization techniques such as MoSCoW and Business Value vs. Effort, freezing the Sprint Backlog after Sprint Planning, and implementing actionable improvements during Sprint Retrospectives, the team can reduce requirement churn, improve productivity, and deliver a higher-quality telemedicine application while maintaining stakeholder satisfaction.
+
+
+
